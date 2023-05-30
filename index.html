@@ -88,24 +88,26 @@
       text-decoration: underline;
     }
 
-    /* Styles for screens with width 375px or larger */
-    @media (max-width: 375px) {
+
+    @media (min-width: 768px) {
+
+      /* Desktop styles */
+
       .container {
-        width: 90%;
-        max-width: 400px;
-        margin: 50px;
+        max-width: 1440px;
+        padding: 30px;
       }
 
       .qr-code-image {
-        width: 100%;
+        max-width: 400px;
       }
 
       .heading {
-        font-size: 18px;
+        font-size: 24px;
       }
 
       .description {
-        font-size: 14px;
+        font-size: 18px;
       }
     }
   </style>
